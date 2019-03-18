@@ -100,7 +100,7 @@ public class Sudoku extends LatinSquare {
 		}
    
 
-public boolean isPartialSudoku() {
+public boolean isPartialSudoku() throws Exception{
 
 	//ignore zeroes code
 	//checks for dupes in region,rows,columns
@@ -131,7 +131,7 @@ public boolean isPartialSudoku() {
 }
 
 
-public boolean isSudoku() {
+public boolean isSudoku() throws Exception {
 
 	//ignore zeroes code
 	//checks for dupes in region,rows,columns
