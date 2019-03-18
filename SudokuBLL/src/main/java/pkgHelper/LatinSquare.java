@@ -3,7 +3,7 @@ package pkgHelper;
 import java.util.Arrays;
 import java.util.ArrayList;
 import org.apache.commons.lang.ArrayUtils;
-import pkgEnum.PuzzleViolation;
+import pkgEnum.ePuzzleViolation;
 //Comments to make the git submission work
 public class LatinSquare {
 
